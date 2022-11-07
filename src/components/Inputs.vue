@@ -10,7 +10,7 @@
         <InputSize />
         <InputFullWidth />
         <InputMultiline />
-        <div class="createdBy mb-5">created by <a href="#">hasanaimroatun</a> - devChallenges.io</div>
+        <div class="createdBy mb-5">created by <a href="https://github.com/hasanaimroatun/wpu-inputComponentChallenge.git">hasanaimroatun</a> - devChallenges.io</div>
     </div>
 </template>
 
