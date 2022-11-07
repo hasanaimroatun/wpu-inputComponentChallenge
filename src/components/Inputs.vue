@@ -5,6 +5,7 @@
         <InputError />
         <InputDisabled />
         <InputHelperText />
+        <InputIcon />
         <InputText />
         <InputSize />
         <InputFullWidth />
@@ -18,6 +19,7 @@ import Input from './InputDefault.vue'
 import InputError from './InputError.vue'
 import InputDisabled from './InputDisabled.vue'
 import InputHelperText from './InputHelperText.vue'
+import InputIcon from './InputIcon.vue'
 import InputText from './InputText.vue'
 import InputSize from './InputSize.vue'
 import InputFullWidth from './InputFullWidth.vue'
@@ -29,6 +31,7 @@ import InputMultiline from './InputMultiline.vue'
             InputError,
             InputDisabled,
             InputHelperText,
+            InputIcon,
             InputText,
             InputSize,
             InputFullWidth,
@@ -62,6 +65,7 @@ input {
     border: 1px solid #828282;
     padding-left: 12px;
     outline: none;
+    margin-top: 4px;
 }
 
 input,
@@ -83,6 +87,8 @@ textarea::placeholder {
 textarea {
     padding-left: 12px;
     padding-top: 18px;
+    margin-top: 4px;
+    outline: none;
 }
 
 label {
