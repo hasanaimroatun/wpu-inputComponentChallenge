@@ -20,5 +20,7 @@
 </script>
 
 <style scoped>
-
+input::placeholder {
+    color: #333;
+}
 </style>
