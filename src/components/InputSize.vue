@@ -34,4 +34,9 @@
     height: 40px;
 }
 
+@media screen and (max-width: 768px) {
+    #iDefault7 {
+        margin-bottom: 42px;
+    }
+}
 </style>

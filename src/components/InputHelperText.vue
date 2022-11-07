@@ -11,7 +11,7 @@
         <div class="col-md-5">
             <small v-text="labelTitle2"></small>
             <div class="d-flex flex-column">
-                <label for="iDefault5">Label</label>
+                <label for="iDefault5" class="labelError">Label</label>
                 <input type="text" name="iDefault5" id="iDefault5" placeholder="Placeholder">
                 <div class="helper2">Some interesting text</div>
             </div>
@@ -32,6 +32,14 @@
 </script>
 
 <style scoped>
+#iDefault4 {
+    border: 1px solid #828282;
+}
+
+#iDefault5 {
+    border: 1px solid #D32F2F;
+}
+
 .helper1,
 .helper2 {
     font-family: 'Noto Sans', sans-serif;
@@ -42,9 +50,21 @@
 
 .helper1 {
     color: #828282;
+    margin-top: 4px;
+}
+
+.labelError {
+    color: #D32F2F;
 }
 
 .helper2 {
     color: #D32F2F;
+    margin-top: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .helper1 {
+        margin-bottom: 42px;
+    }
 }
 </style>
