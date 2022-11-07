@@ -3,7 +3,7 @@
         <small v-text="labelTitle"></small>
         <div class="d-flex flex-column mb-5">
             <label for="iDefault9">Label</label>
-            <input type="text" name="iDefault9" id="iDefault9" placeholder="Placeholder">
+            <input type="text" name="iDefault9" id="iDefault9" placeholder="Text">
         </div>
     </div>
 </template>
@@ -22,5 +22,10 @@
 <style scoped>
 #iDefault9 {
     width: 98%;
+}
+
+input, 
+input::placeholder {
+    color: #333333;
 }
 </style>
