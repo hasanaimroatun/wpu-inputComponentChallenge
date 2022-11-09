@@ -5,7 +5,7 @@
             <form class="d-flex flex-column">
                 <label for="iDefault4">Label</label>
                 <input type="text" name="iDefault4" id="iDefault4" placeholder="Placeholder" aria-describedby="helpBlock">
-                <div class="helper1 form-text" id="helpBlock">Some interesting text</div>
+                <div class="helper1 form-text" id="helpBlock" :style="helperColor1">Some interesting text</div>
             </form>
         </div>
         <div class="col-md-5">
@@ -13,7 +13,7 @@
             <form class="d-flex flex-column">
                 <label for="iDefault5" class="labelError">Label</label>
                 <input type="text" name="iDefault5" id="iDefault5" placeholder="Placeholder" aria-describedby="helpBlock2">
-                <div class="helper2 form-text" id="helpBlock2">Some interesting text</div>
+                <div class="helper2 form-text" id="helpBlock2" :style="helperColor2">Some interesting text</div>
             </form>
         </div>
     </div>
@@ -25,7 +25,13 @@
         data() {
             return {
                 labelTitle1: '<Input helperText=”Some interesting text” />',
-                labelTitle2: '<Input helperText=”Some interesting text” error />'
+                labelTitle2: '<Input helperText=”Some interesting text” error />',
+                helperColor1: {
+                    color: '#828282'
+                },
+                helperColor2: {
+                    color: '#D32F2F'
+                }
             }
         }
     }
@@ -49,7 +55,6 @@
 }
 
 .helper1 {
-    color: #828282;
     margin-top: 4px;
 }
 
@@ -58,7 +63,6 @@
 }
 
 .helper2 {
-    color: #D32F2F;
     margin-top: 4px;
 }
 
