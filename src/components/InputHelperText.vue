@@ -2,19 +2,19 @@
     <div class="row mb-5">
         <div class="col-md-5">
             <small v-text="labelTitle1"></small>
-            <div class="d-flex flex-column">
+            <form class="d-flex flex-column">
                 <label for="iDefault4">Label</label>
                 <input type="text" name="iDefault4" id="iDefault4" placeholder="Placeholder">
                 <div class="helper1">Some interesting text</div>
-            </div>
+            </form>
         </div>
         <div class="col-md-5">
             <small v-text="labelTitle2"></small>
-            <div class="d-flex flex-column">
+            <form class="d-flex flex-column">
                 <label for="iDefault5" class="labelError">Label</label>
                 <input type="text" name="iDefault5" id="iDefault5" placeholder="Placeholder">
                 <div class="helper2">Some interesting text</div>
-            </div>
+            </form>
         </div>
     </div>
 </template>

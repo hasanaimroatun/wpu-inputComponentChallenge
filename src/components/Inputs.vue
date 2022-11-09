@@ -24,6 +24,7 @@ import InputText from './InputText.vue'
 import InputSize from './InputSize.vue'
 import InputFullWidth from './InputFullWidth.vue'
 import InputMultiline from './InputMultiline.vue'
+
     export default {
         name: 'Inputs-container',
         components: {

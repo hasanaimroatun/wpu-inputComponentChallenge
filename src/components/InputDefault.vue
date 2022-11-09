@@ -1,7 +1,7 @@
 <template>
     <div>
         <small v-text="labelTitle"></small>
-        <div class="d-flex flex-column mb-5">
+        <form class="d-flex flex-column mb-5">
             <label for="iDefault1" :style="{color: colorText}">Label</label>
             <input 
                 type="text" 
@@ -12,7 +12,7 @@
                 @mouseleave="changeColorDefault"
                 @focus="changeColorBlue"
                 @input="changeColorBlue">
-        </div>
+        </form>
     </div>
 </template>
 

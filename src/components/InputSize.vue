@@ -2,17 +2,17 @@
     <div class="row mb-5">
         <div class="col-md-5">
             <small v-text="labelTitle1"></small>
-            <div class="d-flex flex-column">
+            <form class="d-flex flex-column">
                 <label for="iDefault7">Label</label>
                 <input type="text" name="iDefault7" id="iDefault7" placeholder="Placeholder">
-            </div>
+            </form>
         </div>
         <div class="col-md-5">
             <small v-text="labelTitle2"></small>
-            <div class="d-flex flex-column">
+            <form class="d-flex flex-column">
                 <label for="iDefault8">Label</label>
                 <input type="text" name="iDefault8" id="iDefault8" placeholder="Placeholder">
-            </div>
+            </form>
         </div>
     </div>
 </template>

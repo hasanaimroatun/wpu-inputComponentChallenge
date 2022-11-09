@@ -1,10 +1,10 @@
 <template>
     <div>
         <small v-text="labelTitle"></small>
-        <div class="d-flex flex-column mb-4">
+        <form class="d-flex flex-column mb-4">
             <label for="iDefault10">Label</label>
             <textarea name="iDefault10" id="iDefault10" rows="10" placeholder="Placeholder"></textarea>
-        </div>
+        </form>
     </div>
 </template>
 
