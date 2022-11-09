@@ -78,6 +78,10 @@
     padding-left: 40px;
 }
 
+#iDefault12 {
+    padding-right: 40px;
+}
+
 @media screen and (max-width: 768px) {
     #iDefault11 {
         margin-bottom: 42px;

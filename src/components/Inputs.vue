@@ -65,6 +65,7 @@ input {
     border-radius: 8px;
     border: 1px solid #828282;
     padding-left: 12px;
+    padding-right: 12px;
     outline: none;
     margin-top: 4px;
 }
