@@ -44,13 +44,15 @@
                     color: '#828282', 
                     position: 'absolute', 
                     marginTop: '50px', 
-                    marginLeft: '10px'
+                    marginLeft: '10px',
+                    cursor: 'pointer'
                 },
                 iconRight: {
                     color: '#828282', 
                     position: 'absolute', 
                     marginTop: '50px', 
-                    marginLeft: '170px'
+                    marginLeft: '170px',
+                    cursor: 'pointer'
                 },
                 iconsContainer1,
                 iconsContainer2,
