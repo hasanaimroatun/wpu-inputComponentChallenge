@@ -2,7 +2,7 @@
     <div class="row mb-5">
         <div class="col-md-5">
             <small v-text="labelTitle1"></small>
-            <form class="d-flex flex-column">
+            <form class="d-flex flex-column iHelper1">
                 <label for="iDefault4">Label</label>
                 <input type="text" name="iDefault4" id="iDefault4" placeholder="Placeholder" aria-describedby="helpBlock" v-model="iValue1" @input="changeHelper1">
                 <div class="helper1 form-text" id="helpBlock" :style="helperColor1">Some interesting text</div>
@@ -10,7 +10,7 @@
         </div>
         <div class="col-md-5">
             <small v-text="labelTitle2"></small>
-            <form class="d-flex flex-column">
+            <form class="d-flex flex-column iHelper2">
                 <label for="iDefault5" class="labelError">Label</label>
                 <input type="text" name="iDefault5" id="iDefault5" placeholder="Placeholder" aria-describedby="helpBlock2" v-model="iValue2" @input="changeHelper2">
                 <div class="helper2 form-text" id="helpBlock2" :style="helperColor2">Some interesting text</div>
@@ -80,7 +80,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .helper1 {
+    .iHelper1 {
         margin-bottom: 42px;
     }
 }
